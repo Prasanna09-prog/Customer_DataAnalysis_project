@@ -1,1 +1,22 @@
+DAX Measures
 
+----------------------------------
+
+Total Orders = Orders = COUNT(Project_Customer_Segmentation[invoice_no])
+
+Total Revenue = Project_Customer_Segmentation[quantity]*Project_Customer_Segmentation[price]
+
+Total Products Sold = SUM(Project_Customer_Segmentation[quantity])
+
+Total Amount = SUMX(Project_Customer_Segmentation, Project_Customer_Segmentation[quantity] * Project_Customer_Segmentation[price])
+
+Age Group =
+   SWITCH(
+    TRUE(),
+    customer[age] < 20, "Teen",
+    customer[age] <= 40, "Adult",
+    customer[age] <= 60, "Middle Age",
+    "Senior"
+)
+
+Revenue = Project_Customer_Segmentation[quantity]*Project_Customer_Segmentation[price]
