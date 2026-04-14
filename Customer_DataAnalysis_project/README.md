@@ -64,15 +64,13 @@ Includes:
 
 - Total Products Sold
 
-- Total Unique Customers
-
 - Shopping Distribution by Gender
 
 - Revenue by Gender
 
 - Products Sold by Gender
 
-➡ Screenshot:<img width="1394" height="751" alt="Dashboard1" src="https://github.com/user-attachments/assets/513bd991-4bd0-40aa-ae7e-541a542ef9f5" />
+➡ Screenshot:Documents/Dashboard1\_overview.png
 
 
 Dashboard 2 — Category & Age Analysis
@@ -87,7 +85,7 @@ Includes:
 
 - Category vs Age Heatmap
 
-➡ Screenshot: docs/dashboard2\_category\_age.png
+➡ Screenshot: Documents/Dashboard2\_category\_age.png
 
 Dashboard 3 — Payment Insights
 
