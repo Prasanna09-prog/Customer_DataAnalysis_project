@@ -70,8 +70,6 @@ Includes:
 
 - Products Sold by Gender
 
-➡ Screenshot:Documents/Dashboard1\_overview.png
-
 
 Dashboard 2 — Category & Age Analysis
 
@@ -85,7 +83,6 @@ Includes:
 
 - Category vs Age Heatmap
 
-➡ Screenshot: Documents/Dashboard2\_category\_age.png
 
 Dashboard 3 — Payment Insights
 
@@ -115,7 +112,7 @@ GROUP BY gender;
 
 Total Orders =
 
-DISTINCTCOUNT(project_customer_segmentation[invoice_no])
+COUNT(Project_Customer_Segmentation[invoice_no])
 
 Total Revenue =
 
@@ -125,9 +122,6 @@ Total Products Sold =
 
 SUM(project_customer_segmentation[quantity])
 
-Total Unique Customers =
-
-DISTINCTCOUNT(project_customer_segmentation[customer_id])
 
 📌 7. Key Insights
 
@@ -135,7 +129,7 @@ Customer Insights
 
 Females contribute higher revenue than males.
 
-The 26–35 age group is the most active segment.
+The 20-40 age group is the most active segment.
 
 Category Insights
 
@@ -151,7 +145,7 @@ Monthly payment trends show seasonal patterns.
 
 📌 8. Business Recommendations
 
-Target high-value customer segments (female, 26–45).
+Target high-value customer segments (female, 20-40).
 
 Provide promotions for top categories like Clothing & Electronics.
 
