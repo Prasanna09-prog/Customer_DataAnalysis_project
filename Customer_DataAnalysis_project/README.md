@@ -72,7 +72,8 @@ Includes:
 
 - Products Sold by Gender
 
-➡ Screenshot: docs/dashboard1\_overview.png
+➡ Screenshot:<img width="1394" height="751" alt="Dashboard1" src="https://github.com/user-attachments/assets/513bd991-4bd0-40aa-ae7e-541a542ef9f5" />
+
 
 Dashboard 2 — Category & Age Analysis
 
