@@ -26,7 +26,7 @@ Excel/CSV
 
 Female customers contributed the highest revenue
 
-Age groups 26–35 and 36–45 dominated purchases
+Age groups 20-40 and 40-60 dominated purchases
 
 Clothing category was the top performer
 
@@ -42,7 +42,7 @@ Improved decision-making accuracy by 25%
 
 Strengthened product-category strategy
 
-Dashboards
+#Dashboards
 
 <img width="1394" height="751" alt="Dashboard1" src="https://github.com/user-attachments/assets/77794ede-0007-4a17-b591-3c835d04eb77" />
 <img width="1389" height="745" alt="Dashboard2" src="https://github.com/user-attachments/assets/47b9ae2f-4f20-45c4-abcc-dd13d4c6ca6f" />
